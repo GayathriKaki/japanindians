@@ -1,0 +1,58 @@
+<%@ Master Language="VB" CodeFile="PWIP_MasterPage.master.vb" Inherits="PWIP_MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Japan Indians / ICE Indians - A Community for Indians in Japan</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<meta name="keywords" content="Japan Indians,Ice Indians,Resale Products in Japan,Community for Indians in Japan,Indian Stores In Japan,Indian Events/Invitations in Japan,Indian Forums in Japan." />
+	
+	<meta name="description" content="Japan Indians,ICE Indians,Community For Indians in japan" />
+
+
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="wrapperi">
+      <div id="wrapperj">
+        <h1 id="header"><a href="#"><img src="images/Japan-Indianslogo.gif" width="257" height="96" alt="Japan Indians/ICE Indians" /></a>
+		<span CssClass="msgWelcome" ><asp:Label   CssClass="lblWelcome" ID="lblWelcomemsg" runat="server" Text=""></asp:Label></span></h1>
+		<div id="nav">
+ <ul>
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="findpeople.aspx">Find People</a></li>
+
+            <li><a href="findprod.aspx">Resale Products</a></li>
+
+            <li><a href="findstore.aspx">Indian Stores/Restaurants/Services</a></li>
+
+            <li><a href="cust_events.aspx">Events</a></li>
+			
+			  <li><a href="Forum.aspx">Forum</a></li>
+
+            <li><a href="Contact.aspx">Contact Us</a></li>
+			 <li><asp:HyperLink   ID="lblMyprod" runat="server" Text=""></asp:HyperLink ></li>
+			  <li><asp:HyperLink   ID="lblLogout" runat="server" Text=""></asp:HyperLink ></li>
+          </ul>
+</div>
+        <div id="content"> <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+                </asp:contentplaceholder></div>
+
+        <div id="footer">
+          <div id="footeri">
+		
+          <span class="copyright"><!-- Do not remove read #/termsofuse/ --></span> 
+          <a href="index.html">Home</a> &nbsp; <a href="findpeople.aspx">Find People</a> &nbsp;
+          <a href="findprod.aspx">Resale Products</a> &nbsp; <a href="findstore.aspx">Indian Stores/Restaurants/Services</a> &nbsp;
+          <a href="cust_events.aspx">Events</a> &nbsp;<a href="Forum.aspx">Discussions</a> &nbsp; <a href="Contact.aspx">Contact</a> &nbsp;
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
